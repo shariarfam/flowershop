@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600&display=swap');
+*{
+    font-family: "poppins", sans-serif;
+    
+}
+
+body{
+    padding: 0%;
+    margin: 0% auto;
+    border: 0%;
+    max-width: 1200px;
+    background-color: #fff;
+
+}
+.header{
+    padding: 0% 60px;
+}
+.banner{
+    padding: 0% 60px;
+    background-color: #FDF0F0;
+}
+
+
+/* nav bar start  */
+.logo{
+    display: flex;
+    font-size: 50px;
+}
+.logo .logo-name{
+    font-size: 20px;
+    color:  hotpink;
+    
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-weight: bold;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+.menu a:hover{
+    color: #60A9A6;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FDF0F0;
+}
+
+/* banner 1 start  */
+.banner-1{
+    display: flex;
+    padding-top: 40px;
+    background-color: #FDF0F0;
+    text-align: center;
+}
+.banner-title{
+    margin-top: 50px;
+    width: 50%;
+}
+#title1{
+    font-size: 50px;
+}
+#b1p{
+    color: gray;
+}
+.bbanner-1-img{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+.shop-now{
+    padding: 10px 15px;
+    color: white;
+    background-color: hotpink;
+    border: none;
+    cursor: pointer;
+}
+
+/* featured flowers */
+.featured-flowers{
+    padding: 0% 60px;
+    margin-top: 100px;
+    background-color: #fff;
+    
+}
+.featured-title{
+    padding: 0% 60px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.featured-header{
+    font-size: 30px;
+}
+.featured-para{
+    font-size:15px;
+    color: gray;
+}
+
+.featured-flowers-img{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+.flower1{
+    Width:300px;
+    Height:300px;
+}
+.flower2{
+    Width:300px;
+    Height:300px;
+}
+.flower3{
+    Width:300px;
+    Height:300px;
+}
+.flower1 img{
+    Width:80%;
+    Height:80%;
+    background-color: rgb(250, 227, 231);
+    clip-path: polygon(39% 1%, 57% 1%, 77% 7%, 91% 18%, 100% 35%, 100% 100%, 0 100%, 0 35%, 8% 19%, 21% 9%);
+}
+.flower2 img{
+    Width:80%;
+    Height:80%;
+    background-color: rgb(194, 217, 253);
+    clip-path: polygon(39% 1%, 57% 1%, 77% 7%, 91% 18%, 100% 35%, 100% 100%, 0 100%, 0 35%, 8% 19%, 21% 9%);
+}
+.flower3 img{
+    Width:80%;
+    Height:80%;
+    background-color: rgb(253, 187, 198);
+    clip-path: polygon(39% 1%, 57% 1%, 77% 7%, 91% 18%, 100% 35%, 100% 100%, 0 100%, 0 35%, 8% 19%, 21% 9%);
+}
+
+
+
+
+/* deal start */
+
+.deal{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+.dealtext{
+    margin-top: 50px;
+}
+.dealtitle{
+    font-size: 20px;
+    font-weight: bold;
+}
+.dealtitle span{
+    color: hotpink;
+}
+.dealp{
+    color: gray;
+    text-align: center;
+}
+.shop-now2{
+    margin-left: 70px;
+    padding: 10px 15px;
+    color: white;
+    background-color: hotpink;
+    border: none;
+    cursor: pointer;
+}
+.dealimg{
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    width: 250px;
+}
+
+/* footer */
+.footer{
+    padding: 0% 60px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+    background-color: rgb(20, 20, 20)
+}
+.footertitle{
+    font-size: 35px;
+}
+.footertitle span{
+    color: hotpink;
+}
+.footerp{
+    margin-top: 0px;
+    font-size: 13px;
+}
+
+.media-buttons{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    gap: 15px;
+}
+.media-buttons .link{
+    color: #fff;
+    border-radius:30% ;
+    margin: 0 8px;
+    background-color: rgba(255, 255, 255, 0);
+    text-decoration: none;
+}   
+
+.rights{
+    margin-top: 30px;
+    font-size: 10px;
+}
