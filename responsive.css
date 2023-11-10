@@ -1,0 +1,92 @@
+@media only screen and (min-width: 0px) and (max-width: 480px)
+{
+    .logo{
+        display: flex;
+        font-size: 50px;
+        justify-content: center;
+    }
+    .menu{
+        display: flex;
+        list-style: none;
+        gap: 25px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #FDF0F0;
+
+    }
+    .banner-1{
+        padding-top: 40px;
+        background-color: #FDF0F0;
+    }
+    .banner-title{
+        margin-top: 50px;
+        width: 50%;
+    }
+    #title1{
+        margin-left: 50px;
+        font-size: 30px;
+        white-space: nowrap 
+    }
+    #b1p{
+        color: gray;
+        padding: 0% 140px;
+
+    }
+    .banner-1-img{
+        display:none;
+    }
+    .shop-now{
+        align-items: center;
+        padding: 10px 15px;
+        margin-left: 140px;
+        color: white;
+        background-color: hotpink;
+        border: none;
+        cursor: pointer;
+    }
+    .featured-flowers-img{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #fff;
+        padding-left: 110px;
+    }
+    .deal{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        justify-content: center; 
+        
+    }
+    .dealtitle{
+        font-size: 20px;
+        font-weight: bold;
+        padding-left: 110px;
+    }
+    .dealtitle span{
+        color: hotpink;
+    }
+    .dealp{
+        color: gray;
+        text-align: center;
+        margin-left: 30px;
+    }
+    .shop-now2{
+        margin-left: 180px;
+        
+    }
+    .dealimg{
+        display: flex;
+        justify-content: center;
+        height: 300px;
+        width: 250px;
+        padding-top: 40px;
+        padding-left: 100px;
+    }
+    
+}
